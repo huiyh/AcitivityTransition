@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/click_layout"
+              android:background="#ff0000"
+        >
+    <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:text="Second"
+            />
+    <LinearLayout android:orientation="horizontal"
+                  android:weightSum="100"
+            android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+        <ImageView android:layout_weight="50"
+                   android:layout_width="0dip"
+                   android:layout_height="fill_parent"
+                android:id="@+id/left_image"/>
+        <ImageView android:layout_weight="50"
+                   android:layout_width="0dip"
+                   android:layout_height="fill_parent"
+                   android:id="@+id/right_image"/>
+            </LinearLayout>
+</FrameLayout>
+

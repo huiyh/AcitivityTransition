@@ -1,0 +1,4 @@
+This file was created by IntelliJ IDEA 12.1.4 for binding GitHub repository
+
+非标准API实现,不受动画开关的影响.
+确定是第一个到第二个直接切换比较慢
